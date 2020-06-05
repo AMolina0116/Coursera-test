@@ -1,1 +1,13 @@
 
+body{
+	background: black;
+
+}
+
+/**Header**/
+#header-nav{
+	background: red;
+	border-radius: 0;
+	border: 0;
+}
+
