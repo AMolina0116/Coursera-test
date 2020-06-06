@@ -1,13 +1,38 @@
 
 body{
-	background: black;
-
+	background: #ccc;
+	font-size: sans-serif;
 }
 
-/**Header**/
 #header-nav{
-	background: red;
-	border-radius: 0;
 	border: 0;
+	border-radius: 0;
+	background-color: red;
 }
 
+.container{
+	width: 100%;
+	margin: 50px auto 0;
+	
+	box-sizing: border-box;
+}
+
+.row{
+	margin: 10px 0;
+}
+
+.column{
+	border: 1px solid black;
+	padding: 10px 10px;
+	background: white;
+}
+
+.navbar-custom{
+	background: yellow;
+	width: 100%;
+}
+
+#Foodllc{
+	font-size: 40px;
+	font-weight: bold;
+}
